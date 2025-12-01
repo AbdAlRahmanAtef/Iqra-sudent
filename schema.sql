@@ -20,5 +20,4 @@ CREATE TABLE IF NOT EXISTS sessions (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Insert default students if they don't exist
-INSERT IGNORE INTO students (name) VALUES ('Ibrahim'), ('Ismail');
+
